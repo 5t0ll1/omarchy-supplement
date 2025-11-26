@@ -1,15 +1,12 @@
 #!/bin/bash
 
 # Install all packages in order
-./install-zsh.sh
-./install-asdf.sh
-./install-nodejs.sh
-./install-ruby.sh
-./install-postgresql.sh
 ./install-ghostty.sh
-./install-tmux.sh
+#./install-tmux.sh
+./install-starship.sh
 ./install-stow.sh
 ./install-dotfiles.sh
-./install-hyprland-overrides.sh
+./install-rsync.sh
+./install-vorta.sh
+./install-enpass.sh
 
-./set-shell.sh

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ORIGINAL_DIR=$(pwd)
-REPO_URL="https://github.com/typecraft-dev/dotfiles"
+REPO_URL="git@github.com:5t0ll1/dotfiles.git"
 REPO_NAME="dotfiles"
 
 is_stow_installed() {
@@ -25,13 +25,13 @@ fi
 # Check if the clone was successful
 if [ $? -eq 0 ]; then
   echo "removing old configs"
-  rm -rf ~/.config/nvim ~/.config/starship.toml ~/.local/share/nvim/ ~/.cache/nvim/ ~/.config/ghostty/config
+  rm -rf ~/.bashrc ~/.config/hypr/autostart.conf ~/.config/hypr/bindings.conf ~/.config/hypr/monitors.conf ~/.config/starship.toml ~/.config/ghostty/config
 
   cd "$REPO_NAME"
-  stow zshrc
+  stow bashrc
+  stow hypr
   stow ghostty
-  stow tmux
-  stow nvim
+#  stow tmux
   stow starship
 else
   echo "Failed to clone the repository."
