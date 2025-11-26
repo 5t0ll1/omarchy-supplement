@@ -15,3 +15,7 @@ echo "fireall adjusted for localsend"
 # enable google account in chromium
 omarchy-install-chromium-google-account
 echo "enabled google account in chromium"
+
+# restore ssh config
+mkdir ~/.ssh
+cp ~/Projects/omarchy-supplement/files/ssh/config ~/.ssh

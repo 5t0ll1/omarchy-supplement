@@ -1,0 +1,5 @@
+Host ds-dahoam
+    Hostname 192.168.1.2
+    User borg-backup
+    Port 6666
+    IdentityFile ~/.ssh/id_ed25519
