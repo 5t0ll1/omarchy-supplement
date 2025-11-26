@@ -12,5 +12,6 @@
 ./install-cmus.sh
 ./install-gemini.sh
 ./install-7zip.sh
+./install-printer.sh
 
 ./remove-packages.sh
