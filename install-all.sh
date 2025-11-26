@@ -11,5 +11,6 @@
 ./install-enpass.sh
 ./install-cmus.sh
 ./install-gemini.sh
+./install-7zip.sh
 
 ./remove-packages.sh
