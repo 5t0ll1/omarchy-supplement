@@ -1,0 +1,4 @@
+for i in *.*
+do
+exiv2 -k -r '%Y-%m-%d_%H-%M-%S' rename "$i" 
+done

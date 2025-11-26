@@ -1,0 +1,2 @@
+mkdir ~/Videos/Serien/
+rsync -av -e "ssh -p 6666" stolli@ds-dahoam::video/Serien/* ~/Videos/Serien/

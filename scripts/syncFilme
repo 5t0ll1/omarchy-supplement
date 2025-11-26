@@ -1,0 +1,2 @@
+mkdir ~/Videos/Filme/
+rsync -av -e "ssh -p 6666" stolli@ds-dahoam::video/Filme/* ~/Videos/Filme/
