@@ -10,4 +10,4 @@
 ./install-rsync.sh
 ./install-vorta.sh
 ./install-enpass.sh
-
+./install-cmus.sh

@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# Install stow
+# Install vorta
 yay -S --noconfirm --needed vorta

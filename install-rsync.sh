@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# Install stow
+# Install rsync
 yay -S --noconfirm --needed rsync
