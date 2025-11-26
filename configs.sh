@@ -1,4 +1,5 @@
 #!/bin/bash
 
 # exchange configs
-sudo ~/Projects/omarchy-supplement/files/hosts /etc/hosts
+sudo cp ~/Projects/omarchy-supplement/files/hosts /etc/hosts
+cp ~/Projects/omarchy-supplement/scripts/* ~/Scripts/

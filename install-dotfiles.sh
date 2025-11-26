@@ -31,8 +31,11 @@ if [ $? -eq 0 ]; then
   stow bashrc
   stow hypr
   stow ghostty
-#  stow tmux
+  #stow tmux
   stow starship
+
+  #reload hyprland
+  hyprctl reload
 else
   echo "Failed to clone the repository."
   exit 1

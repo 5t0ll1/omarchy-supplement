@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Install stow
-yay -S --noconfirm --needed yasi
+yay -S --noconfirm --needed yazi
