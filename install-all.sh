@@ -11,3 +11,6 @@
 ./install-vorta.sh
 ./install-enpass.sh
 ./install-cmus.sh
+./install-gemini.sh
+
+./remove-packages.sh
