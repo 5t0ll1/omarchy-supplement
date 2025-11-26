@@ -6,6 +6,7 @@
 ./install-stow.sh
 ./install-dotfiles.sh
 ./configs.sh
+./install-yazi.sh
 ./install-rsync.sh
 ./install-vorta.sh
 ./install-enpass.sh
