@@ -1,1 +1,0 @@
-rsync -av ~/Arbeit/* -e "ssh -p 6666" stolli@192.168.1.2::work/
