@@ -31,7 +31,6 @@ if [ $? -eq 0 ]; then
   stow bashrc
   stow hypr
   stow ghostty
-  #stow tmux
   stow starship
 
   #reload hyprland
